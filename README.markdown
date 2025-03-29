@@ -41,6 +41,9 @@ My configuration uses the following plugins:
 - [`nvim-flutter/flutter-tools.nvim`](https://github.com/nvim-flutter/flutter-tools.nvim): LSP tooling for Flutter.
   - Depends: [`nvim-lua/plenary.nvim`](https://github.com/nvim-lua/plenary.nvim)
   - Depends: [`stevearc/dressing.nvim`](https://github.com/stevearc/dressing.nvim)
+- [`folke/trouble.nvim`](https://github.com/folke/trouble.nvim): A plugin for highlighting different items.
+- [`akinsho/bufferline.nvim`](https://github.com/akinsho/bufferline.nvim): A plugin for showing files as tabs.
+  - Depends: [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)
 
 ## KEY MAPPINGS :keyboard:
 
