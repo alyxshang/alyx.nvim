@@ -45,6 +45,7 @@ My configuration uses the following plugins:
 - [`akinsho/bufferline.nvim`](https://github.com/akinsho/bufferline.nvim): A plugin for showing files as tabs.
   - Depends: [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)
 - [`thesimonho/kanagawa-paper.nvim`](https://github.com/thesimonho/kanagawa-paper.nvim): A beautiful colorscheme for calming one.
+- [`alyxshang/session.nvim`](https://github.com/alyxshang/session.nvim): A plugin to save editing-session information.
 
 ## KEY MAPPINGS :keyboard:
 
