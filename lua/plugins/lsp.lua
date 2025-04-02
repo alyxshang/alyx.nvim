@@ -8,11 +8,40 @@ return {
     local lspconfig = require('lspconfig')
     lspconfig.rust_analyzer.setup {
       settings = {
-        ['zls'] = {},
-        ['dartls'] = {},
-        ['rust-analyzer'] = {},
-	['ocamllsp'] = {},
-	['clangd'] = {},
+        ['zls'] = {
+          on_attach = on_attach,
+          root_dir = lspconfig.util.root_pattern(
+            "*.zig"
+          )
+        },
+        ['dartls'] = {
+          on_attach = on_attach,
+          root_dir = lspconfig.util.root_pattern(
+            "pubspec.yaml"
+          )
+        },
+        ['rust-analyzer'] = {
+          on_attach = on_attach,
+          root_dir = lspconfig.util.root_pattern(
+            "Cargo.toml"
+          )
+        },
+	['ocamllsp'] = {
+          on_attach = on_attach,
+          root_dir = lspconfig.util.root_pattern(
+            "*.opam",
+            "dune-project"
+          )
+        },
+	['clangd'] = {
+          on_attach = on_attach,
+          root_dir = lspconfig.util.root_pattern(
+            "*.c",
+            "*.h",
+            "*.cpp",
+            "*.hpp"
+          )
+        },
 	['deno-lsp'] = {
           on_attach = on_attach,
           root_dir = lspconfig.util.root_pattern(

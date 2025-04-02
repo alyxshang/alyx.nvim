@@ -9,6 +9,5 @@ return {
   },
   config = function()
     vim.opt.background = "dark"
-    vim.cmd.colorscheme("sakura");
   end
 }

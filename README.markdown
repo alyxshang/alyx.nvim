@@ -44,6 +44,7 @@ My configuration uses the following plugins:
 - [`folke/trouble.nvim`](https://github.com/folke/trouble.nvim): A plugin for highlighting different items.
 - [`akinsho/bufferline.nvim`](https://github.com/akinsho/bufferline.nvim): A plugin for showing files as tabs.
   - Depends: [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)
+- [`thesimonho/kanagawa-paper.nvim`](https://github.com/thesimonho/kanagawa-paper.nvim): A beautiful colorscheme for calming one.
 
 ## KEY MAPPINGS :keyboard:
 
