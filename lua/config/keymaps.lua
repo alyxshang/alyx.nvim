@@ -151,8 +151,7 @@ map('n', '<w>', 'w')
 map('i', '<C-w>', 'w')
 map('v', '<w>', 'w')
 
+-- Setting the keybindings to
+-- switch tabs.
 map('n', '<C-n>', ':bnext<CR>')
 map('n', '<C-p>', ':bprev<CR>')
--- Commands
--- gg -> top of file.
--- G end of file.
