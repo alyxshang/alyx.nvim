@@ -5,7 +5,7 @@
 return {
   'thesimonho/kanagawa-paper.nvim',
   config = function()
-    vim.opt.background = "dark"
+    vim.opt.background = "light"
     vim.cmd.colorscheme("kanagawa-paper")
   end
 }
