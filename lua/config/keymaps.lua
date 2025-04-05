@@ -69,78 +69,78 @@ map('i', '<C-l>', '<Right>')
 
 -- Setting navigation
 -- in "visual" mode.
-map('v', '<k>', 'k')
-map('v', '<j>', 'j')
-map('v', '<h>', 'h')
-map('v', '<l>', 'l')
+map('v', 'k', 'k')
+map('v', 'j', 'j')
+map('v', 'h', 'h')
+map('v', 'l', 'l')
 
 -- Setting the "undo"
 -- command to "u" in
 -- "normal" mode.
-map('n', '<u>', ':undo<CR>')
+map('n', 'u', ':undo<CR>')
 
 -- Setting the "delete"
 -- command to "d" in
 -- "visual" mode.
-map('v', '<d>', 'x')
+map('v', 'd', 'x')
 
 -- Setting the
 -- "move-to-start" of
 -- a word keybinding for
 -- all modes.
-map('n', '<b>', 'b')
-map('v', '<b>', 'b')
+map('n', 'b', 'b')
+map('v', 'b', 'b')
 
 -- Setting the "move-to-end"
 -- of a word keybinding for 
 -- all modes.
-map('n', '<e>', 'e')
-map('v', '<e>', 'e')
+map('n', 'e', 'e')
+map('v', 'e', 'e')
 
 -- Setting the "move-to-start"
 -- of a line keybinding for
 -- all modes.
-map('n', '<s>', '0')
-map('v', '<s>', '0')
+map('n', 's', '^')
+map('v', 's', '^')
 
 -- Setting the "move-to-end"
 -- of a line keybinding for
 -- "normal" and "insert" mode.
-map('n', '<t>', '$')
-map('v', '<t>', '$')
+map('n', 't', '$')
+map('v', 't', '$')
 
 -- Setting the
 -- "move-to-start"
 -- of the currrent
 -- paragraph keybinding
 -- for all modes.
-map('n', '<a>', '{')
-map('v', '<a>', '{')
+map('n', 'a', '{')
+map('v', 'a', '{')
 
 -- Setting the
 -- "move-to-end"
 -- of the currrent
 -- paragraph keybinding
 -- for all modes.
-map('n', '<z>', '}')
-map('v', '<z>', '}')
+map('n', 'z', '}')
+map('v', 'z', '}')
 
 -- Setting the "move-to-start"
 -- of the current file keybinding
 -- for all modes.
-map('n', '<g>', 'gg')
-map('v', '<g>', 'gg')
+map('n', 'g', 'gg')
+map('v', 'g', 'gg')
 
 -- Setting the "move-to-end" 
 -- of the current file keybinding
 -- for all modes.
-map('n', '<m>', 'G')
-map('v', '<m>', 'G')
+map('n', 'm', 'G')
+map('v', 'm', 'G')
 
 -- Setting the "move-one-forward"
 -- keybinding for all modes.
-map('n', '<w>', 'w')
-map('v', '<w>', 'w')
+map('n', 'w', 'w')
+map('v', 'w', 'w')
 
 -- Setting the keybindings to
 -- switch tabs.
