@@ -89,28 +89,24 @@ map('v', '<d>', 'x')
 -- a word keybinding for
 -- all modes.
 map('n', '<b>', 'b')
-map('i', '<C-b>', 'b')
 map('v', '<b>', 'b')
 
 -- Setting the "move-to-end"
 -- of a word keybinding for 
 -- all modes.
 map('n', '<e>', 'e')
-map('i', '<C-e>', 'e')
 map('v', '<e>', 'e')
 
 -- Setting the "move-to-start"
 -- of a line keybinding for
 -- all modes.
 map('n', '<s>', '0')
-map('i', '<C-s>', '0')
 map('v', '<s>', '0')
 
 -- Setting the "move-to-end"
 -- of a line keybinding for
 -- "normal" and "insert" mode.
 map('n', '<t>', '$')
-map('i', '<C-t>', '$')
 map('v', '<t>', '$')
 
 -- Setting the
@@ -119,7 +115,6 @@ map('v', '<t>', '$')
 -- paragraph keybinding
 -- for all modes.
 map('n', '<a>', '{')
-map('i', '<C-a>', '{')
 map('v', '<a>', '{')
 
 -- Setting the
@@ -128,27 +123,23 @@ map('v', '<a>', '{')
 -- paragraph keybinding
 -- for all modes.
 map('n', '<z>', '}')
-map('i', '<C-z>', '}')
 map('v', '<z>', '}')
 
 -- Setting the "move-to-start"
 -- of the current file keybinding
 -- for all modes.
 map('n', '<g>', 'gg')
-map('i', '<C-g>', 'gg')
 map('v', '<g>', 'gg')
 
 -- Setting the "move-to-end" 
 -- of the current file keybinding
 -- for all modes.
 map('n', '<m>', 'G')
-map('i', '<C-M>', 'G')
 map('v', '<m>', 'G')
 
 -- Setting the "move-one-forward"
 -- keybinding for all modes.
 map('n', '<w>', 'w')
-map('i', '<C-w>', 'w')
 map('v', '<w>', 'w')
 
 -- Setting the keybindings to
