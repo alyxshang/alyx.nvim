@@ -96,7 +96,7 @@ map('v', '<b>', 'b')
 -- of a word keybinding for 
 -- all modes.
 map('n', '<e>', 'e')
-map('i', '<C-e', 'e')
+map('i', '<C-e>', 'e')
 map('v', '<e>', 'e')
 
 -- Setting the "move-to-start"
