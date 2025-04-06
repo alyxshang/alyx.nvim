@@ -1,11 +1,14 @@
 -- Alyx.nvim by Alyx Shang.
 -- Licensed under the FSL v1.
 
--- Spec for "thesimonho/kanagawa-paper.nvim".
+-- Spec for "anAcc22/sakura.nvim".
 return {
-  'thesimonho/kanagawa-paper.nvim',
+  'anAcc22/sakura.nvim',
+  dependencies = {
+    'rktjmp/lush.nvim'
+  },
   config = function()
     vim.opt.background = "dark"
-    vim.cmd.colorscheme("kanagawa-paper")
+    vim.cmd.colorscheme("sakura")
   end
 }
