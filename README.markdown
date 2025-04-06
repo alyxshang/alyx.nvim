@@ -42,7 +42,7 @@ My configuration uses the following plugins:
 - [`akinsho/bufferline.nvim`](https://github.com/akinsho/bufferline.nvim): A plugin for showing files as tabs.
   - Depends: [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)
 - [`anAcc22/sakura.nvim`](https://github.com/anAcc22/sakura.nvim): A beautiful colorscheme for calming one.
-  - Depends: [`rktjmp/lush.nvim`](https://github.comrktjmp/lush.nvim)
+  - Depends: [`rktjmp/lush.nvim`](https://github.com/rktjmp/lush.nvim)
 
 ## KEY MAPPINGS :keyboard:
 
