@@ -87,7 +87,7 @@ map('v', 'd', 'x')
 map('n', 'x', 'x')
 
 -- Setting the
--- "move-to-start" of
+-- "move-to-start" command of
 -- a word keybinding for
 -- the "normal" and "visual"
 -- modes.
@@ -95,27 +95,28 @@ map('n', 'b', 'b')
 map('v', 'b', 'b')
 
 -- Setting the "move-to-end"
--- of a word keybinding for 
--- the "normal" and "visual"
+-- command of a word keybinding
+-- for the "normal" and "visual"
 -- modes.
 map('n', 'e', 'e')
 map('v', 'e', 'e')
 
 -- Setting the "move-to-start"
--- of a line keybinding for
--- the "visual" and 
+-- command of a line keybinding
+-- for the "visual" and 
 -- "normal" modes.
 map('n', 's', '^')
 map('v', 's', '^')
 
--- Setting the "move-to-end"
+-- Setting the "move-to-end" commmand
 -- of a line keybinding for the
--- "normal" and "visual" mode.
+-- "normal" and "visual" modes.
 map('n', 't', '$')
 map('v', 't', '$')
 
 -- Setting the
 -- "move-to-start"
+-- command
 -- of the currrent
 -- paragraph keybinding
 -- for the "visual" and
@@ -125,6 +126,7 @@ map('v', 'a', '{')
 
 -- Setting the
 -- "move-to-end"
+-- command
 -- of the currrent
 -- paragraph keybinding
 -- for the "visual" and 
@@ -133,13 +135,14 @@ map('n', 'z', '}')
 map('v', 'z', '}')
 
 -- Setting the "move-to-start"
--- of the current file keybinding
--- for the "visual" and "normal" 
+-- command of the current
+-- file keybinding for the "visual"
+-- and "normal" 
 -- modes.
 map('n', 'g', 'gg')
 map('v', 'g', 'gg')
 
--- Setting the "move-to-end" 
+-- Setting the "move-to-end" command
 -- of the current file keybinding
 -- for the "visual" and "insert" 
 -- modes.
