@@ -8,7 +8,7 @@ return {
     'rktjmp/lush.nvim'
   },
   config = function()
-    vim.opt.background = "dark"
+    vim.opt.background = "light"
     vim.cmd.colorscheme("sakura")
   end
 }

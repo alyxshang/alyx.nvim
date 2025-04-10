@@ -76,36 +76,43 @@ map('v', 'l', 'l')
 
 -- Setting the "undo"
 -- command to "u" in
--- "normal" mode.
+-- "normal" and insert
+-- mode.
 map('n', 'u', ':undo<CR>')
+map('i', '<C-u>', ':undo<CR>')
 
--- Setting the "delete"
--- command to "d" in
--- "visual" mode.
+-- Setting the command
+-- to delete things in
+-- all modes.
 map('v', 'd', 'x')
+map('n', 'x', 'x')
+map('i', '<C-x>', 'x')
 
 -- Setting the
 -- "move-to-start" of
 -- a word keybinding for
--- all modes.
+-- the "normal" and "visual"
+-- modes.
 map('n', 'b', 'b')
 map('v', 'b', 'b')
 
 -- Setting the "move-to-end"
 -- of a word keybinding for 
--- all modes.
+-- the "normal" and "visual"
+-- modes.
 map('n', 'e', 'e')
 map('v', 'e', 'e')
 
 -- Setting the "move-to-start"
 -- of a line keybinding for
--- all modes.
+-- the "visual" and 
+-- "normal" modes.
 map('n', 's', '^')
 map('v', 's', '^')
 
 -- Setting the "move-to-end"
--- of a line keybinding for
--- "normal" and "insert" mode.
+-- of a line keybinding for the
+-- "normal" and "visual" mode.
 map('n', 't', '$')
 map('v', 't', '$')
 
@@ -113,7 +120,8 @@ map('v', 't', '$')
 -- "move-to-start"
 -- of the currrent
 -- paragraph keybinding
--- for all modes.
+-- for the "visual" and
+-- "normal" modes.
 map('n', 'a', '{')
 map('v', 'a', '{')
 
@@ -121,24 +129,28 @@ map('v', 'a', '{')
 -- "move-to-end"
 -- of the currrent
 -- paragraph keybinding
--- for all modes.
+-- for the "visual" and 
+-- "normal" modes.
 map('n', 'z', '}')
 map('v', 'z', '}')
 
 -- Setting the "move-to-start"
 -- of the current file keybinding
--- for all modes.
+-- for the "visual" and "normal" 
+-- modes.
 map('n', 'g', 'gg')
 map('v', 'g', 'gg')
 
 -- Setting the "move-to-end" 
 -- of the current file keybinding
--- for all modes.
+-- for the "visual" and "insert" 
+-- modes.
 map('n', 'm', 'G')
 map('v', 'm', 'G')
 
 -- Setting the "move-one-forward"
--- keybinding for all modes.
+-- keybinding for the "visual" and
+-- "normal" modes.
 map('n', 'w', 'w')
 map('v', 'w', 'w')
 
