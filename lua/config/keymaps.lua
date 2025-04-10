@@ -14,6 +14,11 @@ end
 -- Setting the leader key.
 vim.g.mapleader = " "
 
+-- Remapping the escape key
+-- for "insert" mode.
+map('i', '<Esc>', '<Nop>')
+map('i', '<Leader>q', '<Esc>')
+
 -- Toggle for Telescope.
 map('n', '<leader>f', ':Telescope<CR>')
 
