@@ -44,9 +44,9 @@ My configuration uses the following plugins:
 - [`anAcc22/sakura.nvim`](https://github.com/anAcc22/sakura.nvim): A beautiful colorscheme for calming one.
   - Depends: [`rktjmp/lush.nvim`](https://github.com/rktjmp/lush.nvim)
 
-  If light mode offends you, change the line `vim.opt.background =
-  "light"` in the file `lua/plugins/weeb.lua` to `vim.opt.background =
-  "dark"`.
+If light mode offends you, change the line `vim.opt.background =
+"light"` in the file `lua/plugins/weeb.lua` to `vim.opt.background =
+"dark"`.
 
 ## KEY MAPPINGS :keyboard:
 
