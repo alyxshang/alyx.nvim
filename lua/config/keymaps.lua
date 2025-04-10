@@ -76,17 +76,15 @@ map('v', 'l', 'l')
 
 -- Setting the "undo"
 -- command to "u" in
--- "normal" and insert
--- mode.
+-- "insert" mode.
 map('n', 'u', ':undo<CR>')
-map('i', '<C-u>', ':undo<CR>')
 
 -- Setting the command
 -- to delete things in
--- all modes.
+-- "normal" and "visual"
+-- modes.
 map('v', 'd', 'x')
 map('n', 'x', 'x')
-map('i', '<C-x>', 'x')
 
 -- Setting the
 -- "move-to-start" of
