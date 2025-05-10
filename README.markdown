@@ -41,7 +41,7 @@ My configuration uses the following plugins:
 - [`folke/trouble.nvim`](https://github.com/folke/trouble.nvim): A plugin for highlighting different items.
 - [`akinsho/bufferline.nvim`](https://github.com/akinsho/bufferline.nvim): A plugin for showing files as tabs.
   - Depends: [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)
-- [`alyxshang/sakuramaiden.nvim`](https://github.com/alyxshang/sakuramaiden.nvim): A beautiful colorscheme for calming one inspired by Yae Miko.
+- [`alyxshang/eternity.nvim`](https://github.com/alyxshang/eternity.nvim): A beautiful colorscheme inspired by the Raiden Shogun.
   - Depends: [`alyxshang/guizhong.nvim`](https://github.com/alyxshang/guizhong.nvim)
 
 ## KEY MAPPINGS :keyboard:
