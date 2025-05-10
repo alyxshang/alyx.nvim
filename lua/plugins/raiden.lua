@@ -1,9 +1,9 @@
 -- Alyx.nvim by Alyx Shang.
 -- Licensed under the FSL v1.
 
--- Spec for "alyxshang/sakuramaiden.nvim".
+-- Spec for "alyxshang/eternity.nvim".
 return {
-  'alyxshang/sakuramaiden.nvim',
+  'alyxshang/eternity.nvim',
   dependencies = {
     {
         'alyxshang/guizhong.nvim',
@@ -11,8 +11,7 @@ return {
     }
   },
   config = function()
-    require("sakuramaiden").setup({ transparent = true })
-    vim.cmd.colorscheme("sakuramaiden")
-
+    require("eternity").setup({ transparent = true })
+    vim.cmd.colorscheme("eternity")
   end
 }
