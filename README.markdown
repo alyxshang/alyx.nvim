@@ -13,6 +13,8 @@ directory with the following command:
 git clone https://github.com/alyxshang/alyx.nvim ~/.config/nvim
 ```
 
+My config is glam and girly. :nail_care: :sparkles:
+
 ## INFO :gear:
 
 My configuration uses the following plugins:
