@@ -44,10 +44,6 @@ My configuration uses the following plugins:
 - [`alyxshang/sakuramaiden.nvim`](https://github.com/alyxshang/sakuramaiden.nvim): A beautiful colorscheme for calming one inspired by Yae Miko.
   - Depends: [`alyxshang/guizhong.nvim`](https://github.com/alyxshang/guizhong.nvim)
 
-If light mode offends you, change the line `vim.opt.background =
-"light"` in the file `lua/plugins/weeb.lua` to `vim.opt.background =
-"dark"`.
-
 ## KEY MAPPINGS :keyboard:
 
 To view the configured keymaps, please view my keymap configuration
