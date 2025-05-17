@@ -1,9 +1,9 @@
 -- Alyx.nvim by Alyx Shang.
 -- Licensed under the FSL v1.
 
--- Spec for "alyxshang/emeraldsparrow.nvim".
+-- Spec for "alyxshang/menhera.nvim".
 return {
-  'alyxshang/emeraldsparrow.nvim',
+  'alyxshang/menhera.nvim',
   dependencies = {
     {
         'alyxshang/guizhong.nvim',
@@ -11,7 +11,7 @@ return {
     }
   },
   config = function()
-    require("emeraldsparrow").setup({ transparent = false })
-    vim.cmd.colorscheme("emeraldsparrow")
+    require("menhera").setup({ transparent = false })
+    vim.cmd.colorscheme("menhera")
   end
 }
