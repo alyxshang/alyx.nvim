@@ -1,3 +1,7 @@
+-- Alyx.nvim by Alyx Shang.
+-- Licensed under the FSL v1.
+
+-- Spec for "lewis6991/gitsigns.nvim".
 return {
   'lewis6991/gitsigns.nvim',
   config = function()
@@ -49,4 +53,4 @@ return {
       col = 1
     },
   }
-  end
+end}
