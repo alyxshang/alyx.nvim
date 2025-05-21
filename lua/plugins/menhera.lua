@@ -1,9 +1,9 @@
 -- Alyx.nvim by Alyx Shang.
 -- Licensed under the FSL v1.
 
--- Spec for "alyxshang/sakuramaiden.nvim".
+-- Spec for "alyxshang/menhera.nvim".
 return {
-  'alyxshang/sakuramaiden.nvim',
+  'alyxshang/menhera.nvim',
   dependencies = {
     {
         'alyxshang/guizhong.nvim',
