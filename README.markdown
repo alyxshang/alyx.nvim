@@ -40,7 +40,7 @@ My configuration uses the following plugins:
 - [`folke/trouble.nvim`](https://github.com/folke/trouble.nvim): A plugin for highlighting different items.
 - [`akinsho/bufferline.nvim`](https://github.com/akinsho/bufferline.nvim): A plugin for showing files as tabs.
   - Depends: [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)
-
+- [`catpuccin/nvim`](https://github.com/catpuccin/nvim): The Catpuccin colorscheme for Neovim.
 ## KEY MAPPINGS :keyboard:
 
 To view the configured keymaps, please view my keymap configuration
