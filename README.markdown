@@ -41,6 +41,7 @@ My configuration uses the following plugins:
 - [`akinsho/bufferline.nvim`](https://github.com/akinsho/bufferline.nvim): A plugin for showing files as tabs.
   - Depends: [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)
 - [`thesimonho/kanagawa-paper.nvim`](https://github.com/thesimonho/kanagawa-paper.nvim): A remixed Kanagawa colourscheme with muted colors.
+- [`lewis6991/gitsigns.nvim`](https://github.com/lewis6991/gitsigns.nvim): A plugin for marking information related to Git.
 
 ## KEY MAPPINGS :keyboard:
 
