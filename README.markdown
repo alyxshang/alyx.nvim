@@ -40,7 +40,9 @@ My configuration uses the following plugins:
 - [`folke/trouble.nvim`](https://github.com/folke/trouble.nvim): A plugin for highlighting different items.
 - [`akinsho/bufferline.nvim`](https://github.com/akinsho/bufferline.nvim): A plugin for showing files as tabs.
   - Depends: [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)
-- [`thesimonho/kanagawa-paper.nvim`](https://github.com/thesimonho/kanagawa-paper.nvim): A remixed Kanagawa colourscheme with muted colors.
+- [`alyxshang/menhera.nvim`](https://github.com/alyxshang/menhera.nvim): A colorscheme with muted colors inspired by Menhera Chan and the Yami Kawaii art style.
+   - Depends: [`alyxshang/guizhong.nvim`](https://github.com/alyxshang/guizhong.nvim)
+
 
 ## KEY MAPPINGS :keyboard:
 
