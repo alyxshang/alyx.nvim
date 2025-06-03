@@ -40,14 +40,9 @@ My configuration uses the following plugins:
 - [`folke/trouble.nvim`](https://github.com/folke/trouble.nvim): A plugin for highlighting different items.
 - [`akinsho/bufferline.nvim`](https://github.com/akinsho/bufferline.nvim): A plugin for showing files as tabs.
   - Depends: [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)
-<<<<<<< HEAD
-- [`alyxshang/menhera.nvim`](https://github.com/alyxshang/menhera.nvim): A colorscheme with muted colors inspired by Menhera Chan and the Yami Kawaii art style.
-   - Depends: [`alyxshang/guizhong.nvim`](https://github.com/alyxshang/guizhong.nvim)
+- [`anAcc22/sakura.nvim`](https://github.com/anAcc22/sakura.nvim): A colorscheme with the colors of the cherry blossom.
+   - Depends: [`rktjmp/lush.nvim`](https://github.com/rktjmp/lush.nvim)
 
-=======
-- [`thesimonho/kanagawa-paper.nvim`](https://github.com/thesimonho/kanagawa-paper.nvim): A remixed Kanagawa colourscheme with muted colors.
-- [`lewis6991/gitsigns.nvim`](https://github.com/lewis6991/gitsigns.nvim): A plugin for marking information related to Git.
->>>>>>> 37e31db218efe771d0d32a45b0a9e82efb2c16c1
 
 ## KEY MAPPINGS :keyboard:
 
