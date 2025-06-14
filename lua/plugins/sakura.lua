@@ -8,7 +8,7 @@ return {
     'alyxshang/guizhong.nvim'
   },
   config = function()
-    vim.opt.background = "dark"
-    vim.cmd.colorscheme("sakura")
+    require('sakuramaiden').setup()
+    vim.cmd.colorscheme("sakuramaiden")
   end
 }
