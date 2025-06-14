@@ -1,11 +1,11 @@
 -- Alyx.nvim by Alyx Shang.
 -- Licensed under the FSL v1.
 
--- Spec for "anAcc22/sakura.nvim".
+-- Spec for "alyxshang/sakuramaiden.nvim".
 return {
-  'anAcc22/sakura.nvim',
+  'alyxshang/sakuramaiden.nvim',
   dependencies = {
-    'rktjmp/lush.nvim'
+    'alyxshang/guizhong.nvim'
   },
   config = function()
     vim.opt.background = "dark"
