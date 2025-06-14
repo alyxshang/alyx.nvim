@@ -11,7 +11,7 @@ return {
     }
   },
   config = function()
-    require("sakuramaiden").setup({ transparent = true })
+    require("sakuramaiden").setup({ transparent = false })
     vim.cmd.colorscheme("sakuramaiden")
   end
 }
