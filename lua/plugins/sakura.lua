@@ -8,7 +8,7 @@ return {
     'alyxshang/guizhong.nvim'
   },
   config = function()
-    require('sakuramaiden').setup()
+    require('sakuramaiden').setup({ transparent = false })
     vim.cmd.colorscheme("sakuramaiden")
   end
 }
