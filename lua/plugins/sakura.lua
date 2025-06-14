@@ -1,14 +1,18 @@
--- Alyx.nvim by Alyx Shang.
--- Licensed under the FSL v1.
-
--- Spec for "alyxshang/sakuramaiden.nvim".
 return {
-  'alyxshang/sakuramaiden.nvim',
+  'alyxshang/menhera.nvim',
   dependencies = {
-    'alyxshang/guizhong.nvim'
+    {
+        'alyxshang/guizhong.nvim',
+        version = "v.0.3.0"
+    }
   },
   config = function()
-    require('sakuramaiden').setup({ transparent = false })
-    vim.cmd.colorscheme("sakuramaiden")
+
+    -- Setting the transparency setting.
+    -- Can be set to "true" or "false".
+
+    require("menhera").setup({ transparent = true })
+    vim.cmd.colorscheme("menhera")
+
   end
 }
