@@ -5,13 +5,22 @@
 ## ABOUT :books:
 
 This repository contains the source code in Lua for my Neovim setup.
-If you want to use this config as a basis for your own Neovim config,
+If you want to use this configuration as a basis for your own Neovim configuration,
 you can do so by cloning this repository into your Neovim configuration
 directory with the following command:
 
 ```bash
 git clone https://github.com/alyxshang/alyx.nvim ~/.config/nvim
 ```
+
+If you are unsure where on your filesystem the Neovim configuration directory is,
+please refer to Neovim's official documentation [here](https://neovim.io/doc/user/vim_diff.html#nvim-config).
+
+## SCREENSHOT :camera_flash:
+
+<p align="center">
+ <img src="https://github.com/alyxshang/sakuramaiden.nvim/blob/main/images/screenie.png"/>
+</p>
 
 ## INFO :gear:
 
