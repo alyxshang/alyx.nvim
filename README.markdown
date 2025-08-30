@@ -40,7 +40,7 @@ My configuration uses the following plugins:
 - [`folke/trouble.nvim`](https://github.com/folke/trouble.nvim): A plugin for highlighting different items.
 - [`akinsho/bufferline.nvim`](https://github.com/akinsho/bufferline.nvim): A plugin for showing files as tabs.
   - Depends: [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)
-- [`alyxshang/sakuramaiden.nvim`](https://github.com/alyxshang/sakuramaiden.nvim): A colorscheme inspired by Yae Miko, the Guuji of the Grand Narukami Shrine.
+- [`alyxshang/emeraldsparrow.nvim`](https://github.com/alyxshang/emeraldsparrow.nvim): A colorscheme inspired by Lan Yan.
    - Depends: [`alyxshang/guizhong.nvim`](https://github.com/alyxshang/guizhong.nvim)
 
 
