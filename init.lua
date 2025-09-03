@@ -169,7 +169,6 @@ end
 -- plugins.
 local function setupPlugins(nuwa)
   nuwa.setup()
-  require("nvim-web-devicons").setup()
   require("lualine").setup(
     {
       options = {
