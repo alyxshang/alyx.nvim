@@ -53,7 +53,7 @@ My configuration uses the following plugins:
 ## KEY MAPPINGS :keyboard:
 
 To view the configured keymaps, please view my keymap configuration
-[here](lua/config/keymaps.lua).
+[here](https://github.com/alyxshang/alyx.nvim/blob/main/init.lua#L434).
 
 ## NOTE :scroll:
 
