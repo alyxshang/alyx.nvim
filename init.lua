@@ -174,7 +174,7 @@ local function setupPlugins(nuwa)
       options = {
         icons_enabled = true,
         theme = "emeraldsparrow",
-        component_separators = { left = '', right = ''},
+        component_separators = { left = '', right = ''},
         section_separators = { left = '', right = ''},
         disabled_filetypes = {
           statusline = {},
@@ -593,4 +593,5 @@ local function main()
   setupKeyMaps()
 end
 
+-- Calling the main function.
 main()

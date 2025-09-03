@@ -19,7 +19,7 @@ please refer to Neovim's official documentation [here](https://neovim.io/doc/use
 ## SCREENSHOT :camera_flash:
 
 <p align="center">
- <img src="https://github.com/alyxshang/sakuramaiden.nvim/blob/main/images/screenie.png"/>
+ <img src="screenie.png"/>
 </p>
 
 ## INFO :gear:
