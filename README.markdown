@@ -47,7 +47,7 @@ My configuration uses the following plugins:
 - [`akinsho/bufferline.nvim`](https://github.com/akinsho/bufferline.nvim): A plugin for showing files as tabs.
   - Depends: [`nvim-tree/nvim-web-devicons`](https://github.com/nvim-tree/nvim-web-devicons)
 - [`lewis6991/gitsigns.nvim`](https://github.com/alyxshang/gitsigns.nvim): A plugin to keep track of changes tracked in Git and display UI markers for this.
-- [`alyxshang/emeraldsparrow.nvim`](https://github.com/alyxshang/emeraldsparrow.nvim): A colorscheme inspired by Lan Yan.
+- [`alyxshang/menhera.nvim`](https://github.com/alyxshang/emeraldsparrow.nvim): A colorscheme inspired by [Menhera Chan](https://www.instagram.com/bisukoezaki).
    - Depends: [`alyxshang/guizhong.nvim`](https://github.com/alyxshang/guizhong.nvim)
 
 
