@@ -157,12 +157,12 @@ local function setupColors(nuwa)
   nuwa.installPackage(
     "https://github.com",
     "alyxshang",
-    "emeraldsparrow.nvim"
+    "menhera.nvim"
   )
-  require("emeraldsparrow").setup(
+  require("menhera").setup(
     { transparent = false }
   )
-  vim.cmd.colorscheme("emeraldsparrow")
+  vim.cmd.colorscheme("menhera")
 end
 
 -- A function to install different
