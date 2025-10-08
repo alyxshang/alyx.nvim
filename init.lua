@@ -160,7 +160,7 @@ local function setupColors(nuwa)
     "menhera.nvim"
   )
   require("menhera").setup(
-    { transparent = false }
+    { transparent = true }
   )
   vim.cmd.colorscheme("menhera")
 end
@@ -346,6 +346,15 @@ local function setupPlugins(nuwa)
       {
         settings = {
           ['rubyls'] = {}
+        }
+      }
+    )
+    vim.lsp.enable('gopls')
+    vim.lsp.config(
+      'gopls',
+      {
+        settings = {
+          ['gopls'] = {}
         }
       }
     )
